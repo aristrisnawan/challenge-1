@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <title>Frontend Mentor | Results summary component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 14px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body class="">
+    <div class="my-20">
+      <div class="bg-white w-1/2 h-96 mx-auto rounded-3xl flex shadow-lg">
+        <div
+          class="w-1/2 bg-gradient-to-t from-blue-700 via-blue-600 to-blue-500 h-full rounded-3xl shadow-lg"
+        >
+          <p class="text-center my-4 text-lg font-bold text-white opacity-30">
+            Your Result
+          </p>
+          <div
+            class="w-40 h-40 bg-blue-800 mx-auto rounded-full flex items-center justify-center mb-4 shadow-md"
+          >
+            <div class="text-center text-white">
+              <p class="text-5xl font-bold">76</p>
+              <p class="text-sm opacity-20">of 100</p>
+            </div>
+          </div>
+          <div class="text-center mx-10 mt-3">
+            <p class="text-2xl text-white font-semibold">Great</p>
+            <p class="text-white opacity-50 my-2">
+              You scored higher than 65% of the people who have taken these
+              tests.
+            </p>
+          </div>
+        </div>
+        <div class="w-1/2 bg-white h-full rounded-r-3xl px-6">
+          <p class="my-4 text-lg font-bold">Summary</p>
+          <div class="flex flex-col space-y-8 mt-8">
+            <div class="grid grid-cols-2 mx-3">
+              <div class="flex">
+                <img src="./images/icon-reaction.svg" alt="" />
+                <span class="ml-2 text-red-500 font-medium">Reaction</span>
+              </div>
+              <div class="ml-auto">
+                <span class="font-bold">80 </span
+                ><span class="font-bold text-slate-300">/ 100</span>
+              </div>
+            </div>
+            <div class="grid grid-cols-2 mx-3">
+              <div class="flex">
+                <img src="./images/icon-memory.svg" alt="" />
+                <span class="ml-2 text-yellow-400 font-medium">Memory</span>
+              </div>
+              <div class="ml-auto">
+                <span class="font-bold">92 </span
+                ><span class="font-bold text-slate-300">/ 100</span>
+              </div>
+            </div>
+            <div class="grid grid-cols-2 mx-3">
+              <div class="flex">
+                <img src="./images/icon-verbal.svg" alt="" />
+                <span class="ml-2 text-teal-500 font-medium">Verbal</span>
+              </div>
+              <div class="ml-auto">
+                <span class="font-bold">61 </span
+                ><span class="font-bold text-slate-300">/ 100</span>
+              </div>
+            </div>
+            <div class="grid grid-cols-2 mx-3">
+              <div class="flex">
+                <img src="./images/icon-visual.svg" alt="" />
+                <span class="ml-2 text-blue-700 font-medium">Visual</span>
+              </div>
+              <div class="ml-auto">
+                <span class="font-bold">72 </span
+                ><span class="font-bold text-slate-300">/ 100</span>
+              </div>
+            </div>
+          </div>
+          <div
+            class="bg-slate-800 text-white font-bold text-center rounded-full py-3 my-7 cursor-pointer hover:bg-gradient-to-t hover:from-blue-700 hover:hovervia-blue-600 hover:to-blue-500"
+          >
+            <a href="">Continue</a>
+          </div>
+        </div>
+      </div>
+      <div class="attribution mt-4">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Aris Trisnawan</a>.
+      </div>
+    </div>
+  </body>
+</html>
